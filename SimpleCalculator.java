@@ -33,9 +33,7 @@ public class SimpleCalculator
                 if (num2 == 0)
                     System.out.println("Error: you cannot divide by zero");
                 else
-                {
                     System.out.println("Результат: " + (num1 / num2));
-                }
                 break;
             default:
                 System.out.printf("operator %c is not declared", operator);
