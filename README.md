@@ -1,3 +1,3 @@
 # Java
 
-My attempt to try java languange 
+Netcracker Java course
