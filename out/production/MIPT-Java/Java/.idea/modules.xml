@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Algos/Algos.iml" filepath="$PROJECT_DIR$/Algos/Algos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HW1 Trivial Tasks/HW1 Trivial Tasks.iml" filepath="$PROJECT_DIR$/HW1 Trivial Tasks/HW1 Trivial Tasks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MIPT-Java.iml" filepath="$PROJECT_DIR$/MIPT-Java.iml" />
+    </modules>
+  </component>
+</project>
