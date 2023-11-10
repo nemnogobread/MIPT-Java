@@ -1,4 +1,4 @@
-package ru.skillbench.tasks.basics.control;
+package ru.skillbench.tasks.basics.math;
 
 /**
  * ЦЕЛЬ ЗАДАЧИ - потренироваться с массивами и циклами в Java, принципами написания класса,
