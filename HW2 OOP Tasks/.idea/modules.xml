@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ArrayVector/ArrayVector.iml" filepath="$PROJECT_DIR$/ArrayVector/ArrayVector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ComplexNumber/ComplexNumber.iml" filepath="$PROJECT_DIR$/ComplexNumber/ComplexNumber.iml" />
       <module fileurl="file://$PROJECT_DIR$/Employee/Employee.iml" filepath="$PROJECT_DIR$/Employee/Employee.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/HW2 OOP Tasks.iml" filepath="$PROJECT_DIR$/.idea/HW2 OOP Tasks.iml" />
     </modules>
