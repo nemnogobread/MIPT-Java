@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef8622c5-1a24-44ab-8dd5-d3836e27707f" name="Changes" comment="">
+    <list default="true" id="f2dee0ed-ab45-4c17-94ba-8e5946a17e5b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../../Algos/Algos.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Algos/Binary_Search/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Algos/Binary_Search/.idea/.gitignore" beforeDir="false" />
@@ -13,11 +10,9 @@
       <change beforePath="$PROJECT_DIR$/../../Algos/Binary_Search/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Algos/Binary_Search/Binary_Search.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Algos/Binary_Search/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../HW2 OOP Tasks/ArrayVector/ArrayVector.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../HW2 OOP Tasks/ArrayVector/ArrayVector.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArrayVector.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../MIPT-Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../MIPT-Java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Self-Education/Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Self-Education/Test/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Transport/Car.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Transport/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Transport/Transport.java" beforeDir="false" />
@@ -56,87 +51,30 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/main/java/org/example/MainApp.java" root0="SKIP_INSPECTION" />
-  </component>
-  <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 0
-}</component>
-  <component name="ProjectId" id="2bpHad3VjI4GaUW1LkYT410iBsS" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2cDmC0J5Nq2CG98jwyDyAKHLj9L" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/programming/MIPT-Java/Self-Education/Test&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/programming/MIPT-Java/Self-Education/Test"
   }
-}</component>
-  <component name="RunManager" selected="Application.MainApp">
-    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.MainApp" />
-      <module name="Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test [camel:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="cmdOptions" />
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list>
-                <option value="camel:run" />
-              </list>
-            </option>
-            <option name="pomFileName" />
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="projectsCmdOptionValues">
-              <list />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="Application.MainApp" />
-      <item itemvalue="Maven.Test [camel:run]" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.MainApp" />
-      </list>
-    </recent_temporary>
-  </component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ef8622c5-1a24-44ab-8dd5-d3836e27707f" name="Changes" comment="" />
-      <created>1706905166097</created>
+      <changelist id="f2dee0ed-ab45-4c17-94ba-8e5946a17e5b" name="Changes" comment="" />
+      <created>1707654391424</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1706905166097</updated>
+      <updated>1707654391424</updated>
     </task>
     <servers />
   </component>

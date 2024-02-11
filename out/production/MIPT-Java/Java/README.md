@@ -1,3 +1,0 @@
-# Java
-
-Netcracker Java course
