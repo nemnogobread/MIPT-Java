@@ -19,7 +19,7 @@ public class Main {
         char[][] charArray = new char [30][120];
         for (int i = 0; i < 30; i++){
             for (int j = 0; j < 120; j++) {
-                if (Math.pow(i-15, 2) + Math.pow(j-60 ,2) <= 100){
+                if (Math.pow(i-15, 2) + Math.pow((j-60)/2 ,2) <= 100){
                     charArray[i][j] = '@' ;
                 }
                 else {
