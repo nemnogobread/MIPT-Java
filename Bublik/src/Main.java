@@ -1,5 +1,7 @@
 import java.util.Arrays;
 import java.util.concurrent.TimeUnit;
+import Vectors.MyVector2D;
+import Vectors.MyVector3D;
 
 public class Main {
 
@@ -28,20 +30,20 @@ public class Main {
     public static void main(String[] args) throws InterruptedException {
         int hight = Globals.hight;
         int widht = Globals.widht;
+        char[][] charArray = new char [widht][hight];
+        char[] gradient = {'.', ':', '/', ',', '(', 'l', '1', 'z', '4', 'H', '9', 'W', '8', '$', '@'};
         float windowAspect = (float) widht / hight;
         float pixelAspect = 0.5f;
-        char[][] charArray = new char [hight][widht];
 
-        for (int t = 0; t < 5000; t++)
+        for (int t = 0; t < 10000; t++)
         {
-            for (int i = 0; i < hight; i++) {
-                for (int j = 0; j < widht; j++) {
-                    float x = ((float) j / widht * 2.0f - 1.0f);
-                    float y = -((float) i / hight * 2.0f - 1.0f);
+            for (int i = 0; i < widht; i++) {
+                for (int j = 0; j < hight; j++) {
+                    float x = ((float) i / hight * 2.0f - 1.0f) ;
+                    float y = -((float) j / widht * 2.0f - 1.0f);
+                    MyVector2D uv = new MyVector2D(x, y);
                     x *= windowAspect * pixelAspect;
-                    if (Math.pow(x - Math.sin(0.002f * t), 2) + Math.pow(y, 2) <= 0.5f) {
-                        charArray[i][j] = '@';
-                    } else if ((i == 0 && j == 0 ) || (i == hight - 1 && j == widht - 1 )) {
+                    if (Math.pow(x, 2) + Math.pow(y, 2) <= 0.5){
                         charArray[i][j] = '@';
                     } else {
                         charArray[i][j] = '.';

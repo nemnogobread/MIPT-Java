@@ -1,47 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f2dee0ed-ab45-4c17-94ba-8e5946a17e5b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Algos/Algos.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Algos/Binary_Search/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Algos/Binary_Search/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Algos/Binary_Search/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Algos/Binary_Search/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Algos/Binary_Search/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Algos/Binary_Search/Binary_Search.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Algos/Binary_Search/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ArrayVector.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../MIPT-Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../MIPT-Java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Self-Education/Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Self-Education/Test/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Transport/Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Transport/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Transport/Transport.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Transport/Truck.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../out/production/HW1 Trivial Tasks/ru/skillbench/tasks/basics/control/ControlFlowStatements1$BankDeposit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../out/production/HW1 Trivial Tasks/ru/skillbench/tasks/basics/control/ControlFlowStatements1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../out/production/HW1 Trivial Tasks/ru/skillbench/tasks/basics/control/ControlFlowStatements1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../out/production/HW1 Trivial Tasks/ru/skillbench/tasks/basics/control/ControlFlowStatements1Impl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../out/production/HW1 Trivial Tasks/ru/skillbench/tasks/basics/control/ControlFlowStatements1Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../out/production/HW1 Trivial Tasks/ru/skillbench/tasks/basics/control/ControlFlowStatements2$Sportsman.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../out/production/HW1 Trivial Tasks/ru/skillbench/tasks/basics/control/ControlFlowStatements2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../out/production/HW1 Trivial Tasks/ru/skillbench/tasks/basics/control/ControlFlowStatements2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../out/production/HW1 Trivial Tasks/ru/skillbench/tasks/basics/control/ControlFlowStatements2Impl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../out/production/HW1 Trivial Tasks/ru/skillbench/tasks/basics/control/ControlFlowStatements2Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../out/production/MIPT-Java/Java/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../out/production/MIPT-Java/Java/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../out/production/MIPT-Java/Java/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../out/production/MIPT-Java/Java/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../out/production/MIPT-Java/Java/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../out/production/MIPT-Java/Java/HW2 OOP Tasks/OOP Tasks.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../out/production/MIPT-Java/Java/Homework 0/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../out/production/MIPT-Java/Java/MIPT-Java.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../out/production/MIPT-Java/Java/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../out/production/MIPT-Java/Java/Transport/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../out/production/MIPT-Java/Java/Transport/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../out/production/MIPT-Java/Java/Transport/Transport$Engine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../out/production/MIPT-Java/Java/Transport/Transport.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../out/production/MIPT-Java/Java/Transport/Truck.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../out/test/MIPT-Java/Java/Test.class" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bublik/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bublik/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bublik/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Self-Education/Transport/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Self-Education/Transport/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Self-Education/Transport/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Self-Education/Transport/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,9 +19,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2cDmC0J5Nq2CG98jwyDyAKHLj9L" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -64,7 +32,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/programming/MIPT-Java/Self-Education/Test"
+    "last_opened_file_path": "C:/programming/MIPT-Java/HW2 OOP Tasks/ComplexNumber"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
