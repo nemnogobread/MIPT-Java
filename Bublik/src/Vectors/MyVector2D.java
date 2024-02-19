@@ -9,7 +9,7 @@ public class MyVector2D{
         this.y = y;
     }
 
-    public double norm(MyVector2D uv){
-        return (Math.sqrt(uv.x * uv.x + uv.y + uv.y));
+    public double norm(){
+        return (Math.sqrt(this.x * this.x + this.y * this.y));
     }
 }
