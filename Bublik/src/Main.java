@@ -3,7 +3,7 @@ import java.util.concurrent.TimeUnit;
 import Vectors.MyVector2D;
 import Vectors.MyVector3D;
 
-import static Vectors.MyVector3D.ball;
+import static Vectors.MyVector3D.*;
 
 public class Main {
 
@@ -33,33 +33,40 @@ public class Main {
         int hight = Globals.hight;
         int width = Globals.width;
         char[][] charArray = new char [hight][width];
-        char[] gradient = {':', '/', '(', 'l', '1', 'z', '4', 'H', '9', 'W', '8', '$', '@'};
+        char[] gradient = {':', '/', '(', 'z', 'l', '1', '4', 'H', '9', 'W', '8', '$', '@'};
         int gradientSize = 13;
         float windowAspect = (float) width / (float) hight;
         float pixelAspect = 0.5f;
+        MyVector3D cameraPosition = new MyVector3D(0, 0, 5);
+        float Radius = 0.9f;
 
-        for (int t = 0; t < 10000; t++)
+        for (int t = 0; t < 1; t++)
         {
+            MyVector3D lightDiraction = new MyVector3D((float)Math.sin(0.001f * t) , (float)Math.cos(0.001f * t), -1);
             for (int i = 0; i < width; i++) {
                 for (int j = 0; j < hight; j++) {
                     float x = ((float) i / width * 2.0f - 1.0f) ;
                     float y = -((float) j / hight * 2.0f - 1.0f);
                     x *= windowAspect * pixelAspect;
                     MyVector2D point = new MyVector2D(x, y);
-                    MyVector3D camera = new MyVector3D((float)Math.sin(t*0.002f)*0.4f, (float)Math.cos(t*0.002f)*0.4f, 5);
-                    MyVector3D lightDiraction = new MyVector3D(point.x - camera.x, point.y - camera.y , -camera.z);
-                    double cosinus = lightDiraction.cosinus(ball(point, 0.9f));
-                    if (cosinus < 0){
-                        double brightness = -cosinus;
-                        int posInGradient =  (int) Math.round(brightness * (gradientSize));
-                        if (posInGradient > gradientSize - 1){
-                            posInGradient = gradientSize - 1;
+
+                    if (Radius * Radius - point.x * point.x - point.y * point.y > 0){
+                        MyVector3D positivePoint = ball(point, 0.9f);
+                        MyVector3D nevativePoint = new MyVector3D(positivePoint.x, positivePoint.y, -positivePoint.z);
+                        double cosinus = reflection(lightDiraction, positivePoint, cameraPosition);
+
+                        if (cosinus > 0) {
+                            int posInGradient = (int) Math.round(cosinus * (gradientSize));
+                            posInGradient = Math.max(Math.min(posInGradient, gradientSize - 1), 0);
+                            charArray[j][i] = gradient[posInGradient];
                         }
-                        charArray[j][i] = gradient[posInGradient];
-                    } else {
+                        else{
+                            charArray[j][i] = '.';
+                        }
+                    }
+                    else{
                         charArray[j][i] = '.';
                     }
-
                 }
             }
 

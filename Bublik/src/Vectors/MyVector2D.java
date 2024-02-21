@@ -8,8 +8,4 @@ public class MyVector2D{
         this.x = x;
         this.y = y;
     }
-
-    public double norm(){
-        return (Math.sqrt(this.x * this.x + this.y * this.y));
-    }
 }

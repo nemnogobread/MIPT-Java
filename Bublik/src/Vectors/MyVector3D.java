@@ -17,20 +17,30 @@ public class MyVector3D {
         this.z = z;
     }
 
-    public double scalarProduct(MyVector3D other){
-        return (this.x * other.x + this.y * other.y + this.z * other.z);
+    public static double scalarProduct(MyVector3D vec1, MyVector3D vec2){
+        return (vec1.x * vec2.x + vec1.y * vec2.y + vec1.z * vec2.z);
     }
 
     public double norm(){
         return Math.sqrt(this.x * this.x + this.y * this.y + this.z * this.z);
     }
 
-    public double cosinus(MyVector3D other){
-        double norm1 = this.norm();
-        double norm2 = other.norm();
-        double scal = this.scalarProduct(other);
+    public static double cosinus(MyVector3D vec1, MyVector3D vec2){
+        double norm1 = vec1.norm();
+        double norm2 = vec2.norm();
+        double scal = scalarProduct(vec1, vec2);
+        return (scal / (norm1 * norm2));
+    }
 
-        return (scal/(norm1 * norm2));
+    public static double reflection(MyVector3D lightDiraction, MyVector3D point, MyVector3D cameraPosition){
+        MyVector3D cameraDiraction = new MyVector3D(point.x - cameraPosition.x, point.y - cameraPosition.y, point.z - cameraPosition.z);
+        double cosFallAngle = -cosinus(lightDiraction, point);
+        double cosFallTwoAngle = 2 * cosFallAngle * cosFallAngle - 1;
+        double sinFallTwoAngle = Math.sqrt(1 - cosFallTwoAngle * cosFallTwoAngle);
+        double coslightCameraAngle = cosinus(lightDiraction, cameraDiraction);
+        double sinlightCameraAngle = Math.sqrt(1 - coslightCameraAngle * coslightCameraAngle);
+        double result = coslightCameraAngle * cosFallTwoAngle + sinlightCameraAngle * sinFallTwoAngle;
+        return result;
     }
 
     public static MyVector3D ball(MyVector2D point, float Radius){
