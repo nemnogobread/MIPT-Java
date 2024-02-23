@@ -43,8 +43,19 @@ public class MyVector3D {
         return result;
     }
 
-    public static MyVector3D ball(MyVector2D point, float Radius){
-        float temp = Radius * Radius - point.x * point.x - point.y * point.y;
+    public static MyVector3D bublik(MyVector2D point, float R, float r){
+        MyVector3D pointOnBublik = new MyVector3D(point.x, point.y, 0);
+        float temp = r * r  - (R - (float)Math.sqrt(point.x*point.x + point.y*point.y));
+        if (temp <= 0){
+            return pointOnBublik;
+        }
+        float z = (float) Math.sqrt(temp);
+        pointOnBublik.z = z;
+        return pointOnBublik;
+    }
+
+    public static MyVector3D ball(MyVector2D point, float R){
+        float temp = R * R - point.x * point.x - point.y * point.y;
         MyVector3D pointOnSphere = new MyVector3D(point, 0);
         if (temp <= 0){
             return pointOnSphere;
