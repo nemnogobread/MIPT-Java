@@ -38,22 +38,24 @@ public class Main {
         float windowAspect = (float) width / (float) hight;
         float pixelAspect = 0.5f;
         MyVector3D cameraPosition = new MyVector3D(0, 0, 5);
-        float Radius = 0.9f;
+        float R = 0.6f;
+        float r = 0.2f;
 
-        for (int t = 0; t < 10000; t++)
+        for (int t = 0; t < 1; t++)
         {
-            MyVector3D lightDiraction = new MyVector3D(0 , (float)Math.sin(0.001f * t)*1, -(float)Math.cos(0.001f * t)*1);
+            MyVector3D lightDiraction = new MyVector3D(0 , 0, -5);
             for (int i = 0; i < width; i++) {
                 for (int j = 0; j < hight; j++) {
                     float x = ((float) i / width * 2.0f - 1.0f) ;
                     float y = -((float) j / hight * 2.0f - 1.0f);
                     x *= windowAspect * pixelAspect;
                     MyVector2D point = new MyVector2D(x, y);
+                    float dist = (float) Math.sqrt(point.x * point.x - point.y * point.y);
 
-                    if (Radius * Radius - point.x * point.x - point.y * point.y > 0){
-                        MyVector3D positivePoint = ball(point, 0.9f);
+                    if (R - r <= dist && dist <= R + r){
+                        MyVector3D positivePoint = bublik(point, R, r);
                         MyVector3D nevativePoint = new MyVector3D(positivePoint.x, positivePoint.y, -positivePoint.z);
-                        double cosinus = reflection(lightDiraction, positivePoint, cameraPosition);
+                        double cosinus = -reflection(lightDiraction, positivePoint, cameraPosition, R);
 
                         if (cosinus > 0) {
                             int posInGradient = (int) Math.round(cosinus * (gradient1Size));

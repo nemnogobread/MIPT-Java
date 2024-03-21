@@ -32,7 +32,10 @@ public class MyVector3D {
         return (scal / (norm1 * norm2));
     }
 
-    public static double reflection(MyVector3D lightDiraction, MyVector3D point, MyVector3D cameraPosition){
+    public static double reflection(MyVector3D lightDiraction, MyVector3D point, MyVector3D cameraPosition, float R){
+        float dist = (float) Math.sqrt(point.x * point.x + point.y * point.y);
+        MyVector2D Radius = new MyVector2D(point.x * R / dist, point.y * R / dist);
+        MyVector3D bublikNormal = new MyVector3D(point.x - Radius.x, point.y - Radius.y, point.z);
         MyVector3D cameraDiraction = new MyVector3D(point.x - cameraPosition.x, point.y - cameraPosition.y, point.z - cameraPosition.z);
         double cosFallAngle = -cosinus(lightDiraction, point);
         double cosFallTwoAngle = 2 * cosFallAngle * cosFallAngle - 1;
@@ -45,7 +48,7 @@ public class MyVector3D {
 
     public static MyVector3D bublik(MyVector2D point, float R, float r){
         MyVector3D pointOnBublik = new MyVector3D(point.x, point.y, 0);
-        float temp = r * r  - (R - (float)Math.sqrt(point.x*point.x + point.y*point.y));
+        float temp = (float) (r * r  - Math.pow(R - (float)Math.sqrt(point.x*point.x + point.y*point.y), 2));
         if (temp <= 0){
             return pointOnBublik;
         }
