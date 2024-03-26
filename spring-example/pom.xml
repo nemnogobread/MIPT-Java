@@ -43,7 +43,8 @@
       <artifactId>spring-core</artifactId>
       <version>6.1.4</version>
     </dependency>
-  </dependencies>
+
+    </dependencies>
 
   <build>
     <finalName>spring-example</finalName>
