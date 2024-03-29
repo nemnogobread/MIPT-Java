@@ -57,4 +57,9 @@ public class UserController {
         userService.saveUser(user);
         return "redirect:/users";
     }
+
+    @GetMapping("/user-search")
+    public String searchUser(){
+        return "user-search";
+    }
 }
