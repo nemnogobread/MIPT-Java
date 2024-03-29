@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class HelloController {
 
-    @GetMapping("/spring-mvc-example/hello-world")
+    @GetMapping(value = "/hello-world")
     public String sayHello(){
         return "hello_world";
     }
