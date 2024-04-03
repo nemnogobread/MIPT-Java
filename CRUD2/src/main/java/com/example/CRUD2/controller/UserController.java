@@ -9,6 +9,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.List;
 
@@ -52,5 +53,12 @@ public class UserController {
     public String updateUser(User user){
         userService.saveUser(user);
         return "redirect:/users";
+    }
+
+    @GetMapping("user-search")
+    public String searchUser(@RequestParam("lastname") String lastname, Model model){
+        List<User> users = userService.findByLastName(lastname);
+        model.addAttribute("users", users);
+        return "user-search";
     }
 }

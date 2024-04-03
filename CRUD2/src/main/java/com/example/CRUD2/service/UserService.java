@@ -11,6 +11,7 @@ import java.util.List;
 public class UserService {
     @Autowired
     private UserRepository userRepository;
+
     public User findById(Long id){
         return userRepository.getReferenceById(id);
     }
@@ -25,5 +26,9 @@ public class UserService {
 
     public void deleteById(Long id){
         userRepository.deleteById(id);
+    }
+
+    public List<User> findByLastName(String lastName){
+        return userRepository.findByLastName(lastName);
     }
 }
