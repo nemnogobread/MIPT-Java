@@ -24,9 +24,7 @@
     <last-used-providers />
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files>
-      <object connection-id="5ab8376b-8fd3-40cd-a7f2-d1f5eefaebed" object-ref="schemas/crud2/tables/users" />
-    </open-files>
+    <open-files />
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="5ab8376b-8fd3-40cd-a7f2-d1f5eefaebed" />
