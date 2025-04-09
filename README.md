@@ -1,3 +1,3 @@
 # Java
 
-Netcracker Java course
+Start of Netcracker Java course + self education
